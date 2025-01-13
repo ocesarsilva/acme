@@ -1,7 +1,8 @@
 require("dotenv").config();
 
-import { env } from "@/env.js";
 import type { Config } from "drizzle-kit";
+
+import { env } from "@/env.js";
 
 export default {
   schema: "./src/db/schema/index.ts",
