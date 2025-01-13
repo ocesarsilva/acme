@@ -7,19 +7,19 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "ignore": ["node_modules", ".next", "dist"]
+    "ignore": ["node_modules", ".next", "dist", "drizzle"]
   },
   "formatter": {
-    "ignore": ["node_modules", ".next", "dist"],
+    "ignore": ["node_modules", ".next", "dist", "drizzle"],
     "enabled": true,
     "indentStyle": "space"
   },
   "organizeImports": {
-    "ignore": ["node_modules", ".next", "dist"],
+    "ignore": ["node_modules", ".next", "dist", "drizzle"],
     "enabled": true
   },
   "linter": {
-    "ignore": ["node_modules", ".next", "dist"],
+    "ignore": ["node_modules", ".next", "dist", "drizzle"],
     "enabled": true,
     "rules": {
       "recommended": true
